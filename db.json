@@ -1,0 +1,92 @@
+{
+    "authors": [
+        {
+            "id": "9741kqudy1v",
+            "fulName": "salam",
+            "email": "aaa",
+            "isDelete": true
+        },
+        {
+            "id": "8dqg1dbiqdgn864",
+            "fulName": "xMan",
+            "email": "a.gmail.com",
+            "isDelete": false
+        },
+        {
+            "id": "0c9f5312-fb75-4e4b-bc09-5bcd42528b72",
+            "fulName": "fagan Ahmadov124",
+            "email": "fagan Ahmadov124",
+            "isDelete": false
+        },
+        {
+            "id": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
+            "fulName": "fagan Ahmadov124",
+            "email": "fagan Ahmadov124",
+            "isDelete": false
+        },
+        {
+            "id": "69646843-5d69-4f9f-8ac9-fb28f220bd17",
+            "fulName": "fagan Ahmadov124",
+            "email": "fagan Ahmadov124",
+            "isDelete": false
+        }
+    ],
+    "books": [
+        {
+            "id": "aodbqwyv177",
+            "authorId": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
+            "title": "aaa",
+            "description": "fagan Ahmadov124@g",
+            "isDelete": false
+        },
+        {
+            "id": "akwhdbaljd1879",
+            "authorId": "9741kqudy1v",
+            "title": "lorem lorem",
+            "description": "lorem lorem lorem",
+            "isDelete": true
+        },
+        {
+            "id": "dlnqo7161bb",
+            "authorId": "8dqg1dbiqdgn864",
+            "title": "lorem lorem",
+            "description": "lorem lorem lorem",
+            "isDelete": true
+        },
+        {
+            "id": "dlnqo7161bb",
+            "authorId": "8dqg1dbiqdgn864",
+            "title": "lorem lorem",
+            "description": "lorem lorem lorem",
+            "isDelete": true
+        },
+        {
+            "id": "dlnqo7161bb",
+            "authorId": "8dqg1dbiqdgn864",
+            "title": "lorem lorem",
+            "description": "lorem lorem lorem",
+            "isDelete": true
+        },
+        {
+            "id": "7e36cef8-9ec8-4072-8fb7-2a562cd88984",
+            "authorId": "9741kqudy1v",
+            "title": "fagan Ahmadov5",
+            "description": "fagan Ahmadov124@g",
+            "isDelete": true
+        },
+        {
+            "id": "ab9f28a8-b914-42af-b092-dace6d3a06f0",
+            "authorId": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
+            "title": "fagan Ahmadov5",
+            "description": "fagan Ahmadov124@g",
+            "isDelete": false
+        },
+        {
+            "id": "908f6ed9-705a-4edc-ac82-8a3b7d1be6ec",
+            "authorId": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
+            "title": "fagan Ahmadov5",
+            "description": "fagan Ahmadov124@g",
+            "isDelete": false
+        }
+    ]
+}

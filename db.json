@@ -1,91 +1,90 @@
 {
+    "users": [
+        {
+            "id": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
+            "fullName": "fagan Ahmadov",
+            "email": "fagan Ahmadov124@g",
+            "password": "123",
+            "isDelete": false,
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+            "role": "admin",
+            "createAt": "2024-06-19T12:00:00Z"
+        },
+        {
+            "id": "adhkavd1683-07ce-4680-aed3-96bf769246f8",
+            "fullName": "rasim orucov",
+            "email": "rasim orucov124@g",
+            "password": "123",
+            "isDelete": false,
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+            "role": "admin",
+            "createAt": "2024-06-19T12:00:00Z"
+        },
+        {
+            "id": "dsa14da873-07ce-4680-aed3-96bf769246f8",
+            "fullName": "veli hatamazov",
+            "email": "veli hatamazov124@g",
+            "password": "123",
+            "isDelete": false,
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+            "role": "author",
+            "createAt": "2024-06-19T12:00:00Z"
+        },
+        {
+            "id": "dalkb187t14n-07ce-4680-aed3-96bf769246f8",
+            "fullName": "ali eliyev",
+            "email": "ali eliyev124@g",
+            "password": "123",
+            "isDelete": false,
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+            "role": "author",
+            "createAt": "2024-06-19T12:00:00Z"
+        }
+    ],
+    "admins": [
+        {
+            "id": "dasdouy1-07ce-4680-aed3-96bf769246f8",
+            "userId": "ef1b7e32-07ce-4680-aed3-96bf769246f8"
+        },
+        {
+            "id": "dasdouy1-07ce-4680-aa34-96bf769246f8",
+            "userId": "adhkavd1683-07ce-4680-aed3-96bf769246f8"
+        }
+    ],
     "authors": [
         {
             "id": "9741kqudy1v",
-            "fulName": "salam",
-            "email": "aaa",
-            "isDelete": true
+            "userID": "dalkb187t14n-07ce-4680-aed3-96bf769246f8",
+            "books": [
+                "aodbqwyv177",
+                "dakjdaqwyv177"
+            ]
         },
         {
-            "id": "8dqg1dbiqdgn864",
-            "fulName": "xMan",
-            "email": "a.gmail.com",
-            "isDelete": false
-        },
-        {
-            "id": "0c9f5312-fb75-4e4b-bc09-5bcd42528b72",
-            "fulName": "fagan Ahmadov124",
-            "email": "fagan Ahmadov124",
-            "isDelete": false
-        },
-        {
-            "id": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
-            "fulName": "fagan Ahmadov124",
-            "email": "fagan Ahmadov124",
-            "isDelete": false
-        },
-        {
-            "id": "69646843-5d69-4f9f-8ac9-fb28f220bd17",
-            "fulName": "fagan Ahmadov124",
-            "email": "fagan Ahmadov124",
-            "isDelete": false
+            "id": "9741kqudy1vdaa23r",
+            "userID": "dsa14da873-07ce-4680-aed3-96bf769246f8",
+            "books": []
         }
     ],
     "books": [
         {
             "id": "aodbqwyv177",
-            "authorId": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
-            "title": "aaa",
-            "description": "fagan Ahmadov124@g",
+            "authorId": "9741kqudy1v",
+            "title": "lorem ipsum dolor sit amet",
+            "introDesc": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+            "createdAt": "2024-06-19T12:00:00Z",
             "isDelete": false
         },
         {
-            "id": "akwhdbaljd1879",
+            "id": "dakjdaqwyv177",
             "authorId": "9741kqudy1v",
-            "title": "lorem lorem",
-            "description": "lorem lorem lorem",
-            "isDelete": true
-        },
-        {
-            "id": "dlnqo7161bb",
-            "authorId": "8dqg1dbiqdgn864",
-            "title": "lorem lorem",
-            "description": "lorem lorem lorem",
-            "isDelete": true
-        },
-        {
-            "id": "dlnqo7161bb",
-            "authorId": "8dqg1dbiqdgn864",
-            "title": "lorem lorem",
-            "description": "lorem lorem lorem",
-            "isDelete": true
-        },
-        {
-            "id": "dlnqo7161bb",
-            "authorId": "8dqg1dbiqdgn864",
-            "title": "lorem lorem",
-            "description": "lorem lorem lorem",
-            "isDelete": true
-        },
-        {
-            "id": "7e36cef8-9ec8-4072-8fb7-2a562cd88984",
-            "authorId": "9741kqudy1v",
-            "title": "fagan Ahmadov5",
-            "description": "fagan Ahmadov124@g",
-            "isDelete": true
-        },
-        {
-            "id": "ab9f28a8-b914-42af-b092-dace6d3a06f0",
-            "authorId": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
-            "title": "fagan Ahmadov5",
-            "description": "fagan Ahmadov124@g",
-            "isDelete": false
-        },
-        {
-            "id": "908f6ed9-705a-4edc-ac82-8a3b7d1be6ec",
-            "authorId": "ef1b7e32-07ce-4680-aed3-96bf769246f8",
-            "title": "fagan Ahmadov5",
-            "description": "fagan Ahmadov124@g",
+            "title": "lorem ipsum dolor sit amet",
+            "introDesc": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+            "createdAt": "2024-06-19T12:00:00Z",
             "isDelete": false
         }
     ]

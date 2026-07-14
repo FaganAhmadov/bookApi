@@ -2,18 +2,19 @@ const express = require('express')
 const app = express();
 const router = require('./routers');
 const readFileUtil = require('./utils/readFile');
-const cors = require('cors')
+const cors = require('cors');
+const config = require('./config');
 
 const allowOrigins = [
-    "http://localhost:3000",
-    "http://localhost:3001",
-    "http://localhost:3002",
-    "http://localhost:3003",
+    config.origin1,
+    config.origin2,
+    config.origin3,
+    config.origin4
 ];
 
 app.use(cors({
     origin: function (origin, callback) {
-        if (!origin) return callback(null, true);
+        if (!origin && config.node_env === 'development') return callback(null, true);
         if (!allowOrigins.includes(origin)) {
             const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
             return callback(new Error(msg), false);

@@ -38,9 +38,9 @@ const getSingleBooks = (req, res) => {
 }
 
 const createBook = (req, res) => {
-    const { authorId, title, description } = req.body
+    const { authorId, introDesc, title, description } = req.body
     const data = readFileUtil()
-    const foundAuthor = data.authors.find(usr => usr.id === authorId && !usr.isDelete)
+    const foundAuthor = data.authors.find(usr => usr.id === authorId)
     if (!foundAuthor) {
         return res.status(404).json({
             message: 'Author not found'
@@ -53,12 +53,16 @@ const createBook = (req, res) => {
     }
     const newBook = {
         id: uuidv4(),
-        authorId,
+        authorId: authorId,
         title,
+        introDesc,
         description,
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g1k7r3J8X2Z4j5nYqzW8FfG1x3y",
+        createdAt: new Date(),
         isDelete: false,
     }
     data.books.push(newBook)
+    data.authors.books(newBook.id)
     writeFileUtil(data)
     res.json(newBook)
 }
